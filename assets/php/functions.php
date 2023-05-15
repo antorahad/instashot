@@ -308,6 +308,7 @@ function createPost($text,$image)
 {
     print_r($image);
     die();
+    //working here//
     global $db;
     $post_text = mysqli_real_escape_string($db, $text['post_text']);
     $user_id = $_SESSION['userdata']['id'];
